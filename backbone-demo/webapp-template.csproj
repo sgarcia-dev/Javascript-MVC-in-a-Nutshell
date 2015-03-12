@@ -67,9 +67,7 @@
     <Content Include="img\.gitignore" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />
-    <Content Include="js\plugins.js" />
-    <Content Include="js\vendor\jquery-1.10.2.min.js" />
-    <Content Include="js\vendor\modernizr-2.6.2.min.js" />
+    <Content Include="js\vendor\jquery.js" />
     <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,12 +107,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>58767</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
+          <IISUrl>http://localhost:58767/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
