@@ -12,11 +12,11 @@ var MrAwesomeModel = new Backbone.Model({
 var ViewConstructor = Backbone.View.extend({
 	// JQuery syntax selector that sets this view's html parent element
 	el: "#view-container",
-	// Handlebars template syntax
+	// underscore template syntax
 	myUnderscoreTemplate: _.template(templateStringUnderscore),
-	// data to populate the template
+	// handlebars template syntax
 	myHandlebarsTemplate: Handlebars.compile(templateStringHandlebars),
-	// Underscore template syntax
+	// view model data
 	model: MrAwesomeModel,
 	// render method
 	render: function () {
