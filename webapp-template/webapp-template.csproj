@@ -11,7 +11,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>backbone_demo</RootNamespace>
+    <RootNamespace>webapp</RootNamespace>
     <AssemblyName>HTML5 Boiler Plate v4.3</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
@@ -58,35 +58,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
-    <Content Include="apple-touch-icon-precomposed.png" />
     <Content Include="crossdomain.xml" />
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
-    <Content Include="favicon.ico" />
-    <Content Include="humans.txt" />
     <Content Include="img\.gitignore" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />
+    <Content Include="js\vendor\angular.js" />
+    <Content Include="js\vendor\backbone.js" />
+    <Content Include="js\vendor\backbone.marionette.js" />
+    <Content Include="js\vendor\bootstrap.css" />
+    <Content Include="js\vendor\bootstrap.js" />
     <Content Include="js\vendor\jquery.js" />
-    <Content Include="robots.txt" />
+    <Content Include="js\vendor\underscore.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".htaccess" />
-    <Content Include="CHANGELOG.md" />
-    <Content Include="CONTRIBUTING.md" />
-    <Content Include="doc\crossdomain.md" />
-    <Content Include="doc\css.md" />
-    <Content Include="doc\extend.md" />
-    <Content Include="doc\faq.md" />
-    <Content Include="doc\html.md" />
-    <Content Include="doc\js.md" />
-    <Content Include="doc\misc.md" />
-    <Content Include="doc\TOC.md" />
-    <Content Include="doc\usage.md" />
     <Content Include="LICENSE.md" />
     <Content Include="README.md" />
     <None Include="Web.Debug.config">
@@ -95,6 +85,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="doc\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
