@@ -1,3 +1,7 @@
+# Visual Studio Source #
+*.config
+Debug/
+
 # Compiled source #
 ###################
 *.com
