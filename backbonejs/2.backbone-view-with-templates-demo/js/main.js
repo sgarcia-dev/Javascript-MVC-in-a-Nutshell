@@ -1,4 +1,6 @@
+// underscore syntax html template
 var templateStringHandlebars = "<p>Hello World from Handlebars!</p>";
+// handlebars syntax html template
 var templateStringUnderscore = "<p>Hello World from Underscore!</p>";
 
 var ViewConstructor = Backbone.View.extend({
@@ -9,7 +11,7 @@ var ViewConstructor = Backbone.View.extend({
 	// Underscore template syntax
 	myUnderscoreTemplate: _.template(templateStringUnderscore),
 	// render method
-	render: function() {
+	render: function () {
 		// "this" refers to the current object scope, uncomment below
 		// "this" can change depending on the context. Solution:
 		var viewScope = this;
