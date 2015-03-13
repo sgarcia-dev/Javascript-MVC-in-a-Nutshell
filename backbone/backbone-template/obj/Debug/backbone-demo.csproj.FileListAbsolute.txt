@@ -1,0 +1,6 @@
+C:\Users\sergei.garcia.ortega\Documents\confidential\Code\front-end-tutorials\backbone-demo\bin\HTML5 Boiler Plate v4.3.dll.config
+C:\Users\sergei.garcia.ortega\Documents\confidential\Code\front-end-tutorials\backbone-demo\bin\HTML5 Boiler Plate v4.3.dll
+C:\Users\sergei.garcia.ortega\Documents\confidential\Code\front-end-tutorials\backbone-demo\bin\HTML5 Boiler Plate v4.3.pdb
+C:\Users\sergei.garcia.ortega\Documents\confidential\Code\front-end-tutorials\backbone-demo\obj\Debug\backbone-demo.csprojResolveAssemblyReference.cache
+C:\Users\sergei.garcia.ortega\Documents\confidential\Code\front-end-tutorials\backbone-demo\obj\Debug\HTML5 Boiler Plate v4.3.dll
+C:\Users\sergei.garcia.ortega\Documents\confidential\Code\front-end-tutorials\backbone-demo\obj\Debug\HTML5 Boiler Plate v4.3.pdb
