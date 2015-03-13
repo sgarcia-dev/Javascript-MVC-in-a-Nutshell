@@ -13,4 +13,10 @@ function myController(myFactory) {
 	
 	vm.message = "Hello World!";
 	vm.data = myFactory.getData();
+
+	vm.sayHello = sayHello;
+
+	function sayHello() {
+		alert("Hello!");
+	}
 }
