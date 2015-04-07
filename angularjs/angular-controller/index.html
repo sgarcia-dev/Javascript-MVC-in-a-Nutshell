@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Angular</title>
+	<!-- Required viewport tag for responsive css design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Vendor CSS Libraries -->
+	<link rel="stylesheet" href="../../libraries/css/bootstrap.css">
+	<link rel="stylesheet" href="../../libraries/css/toastr.css">
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<!-- Vendor Javascript Libraries -->
+	<script src="../../libraries/js/angular.js"></script>
+	<script src="../../libraries/js/toastr.js"></script>
+	<!-- Project Javascript -->
+	<script src="js/main.js"></script>
+</head>
+
+<body ng-app="app">
+	<div ng-controller="controller as ctrl">
+		<h3>Angular Controller Demo</h3>
+		<hr>
+		<h4>Multiplying Calculator (Type in numbers)</h4>
+		<input class="num1" type="number" ng-model="ctrl.num1" required>
+		<br>
+		<input class="num2" type="number" ng-model="ctrl.num2" required>
+		<br>
+		<br>
+		<span><strong>Result:</strong> {{ctrl.num1*ctrl.num2}}</span>
+		<hr>
+		<h4>Event Demo</h4>
+		<button ng-click="ctrl.hello()">Say Hello</button>
+	</div>
+</body>
+
+</html>
